@@ -10,7 +10,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 48px;
 }
 
 h2 {
@@ -23,6 +23,11 @@ h3 {
 
 p {
     color: #70747A;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* navbar */
@@ -64,3 +69,28 @@ p {
     background-color: #22BB5F;
 }
 
+/* main banner */
+.main-banner {
+    background-image: url(../imgs/mainbanner.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-banner h1 {
+    font-size: 60px;
+}
+
+.main-banner p {
+    font-size: 24px;
+}
