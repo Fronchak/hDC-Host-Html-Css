@@ -3,6 +3,7 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 h1, h2, h3 {
@@ -189,8 +190,130 @@ main section {
     background-color: #2CC76A;
     color: #fff;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .recommended {
     background-color: #f45c57;
+}
+
+/* search */
+
+.search-domain-container {
+    background-color: #34454e;
+    padding: 80px 0;
+}
+
+.search-domain-container h2 {
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+
+.search-domain-container p {
+    font-size: 24px;
+    color: #ddd;
+}
+
+.search-domain-container form {
+    margin: 20px auto 0;
+    width: 60%;
+}
+
+.search-domain-container form input {
+    display: block;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.search-domain-container form input[type="text"] {
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.search-domain-container form input[type="submit"] {
+    color: #fff;
+    margin: 0 auto;
+    background-color: #2CC76A;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search-domain-container form input[type="submit"]:hover {
+    color: #ccc;
+    background-color: #22BB5F;
+}
+
+/* contact form */
+
+.contact-container h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.contact-container p {
+    font-size: 18px;
+}
+
+.contact-container form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.contact-container form input:focus,
+.contact-container form textarea:focus {
+    background-color: #eee;
+    border: 1px solid #bbb;
+}
+
+.contact-container .input-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-container .input-container input {
+    flex: 1 1 200px;
+}
+
+.contact-container form textarea {
+    height: 200px;
+}
+
+.contact-container form input[type="submit"] {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: #2CC76A;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact-container form input[type="submit"]:hover {
+    color: #ccc;
+    background-color: #22BB5F;
+}
+
+footer p {
+    margin: 50px 0;
+    font-weight: bold;
+    font-size: 24px;
 }

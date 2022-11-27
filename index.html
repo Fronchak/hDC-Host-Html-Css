@@ -102,7 +102,9 @@
                     </div>
                 </section>
                 <section class="search-domain-container">
-                    <h2>Buscar um Domínio</h2>
+                    <header>
+                        <h2>Buscar um Domínio</h2>
+                    </header>
                     <p>Veja se o domínio que você deseja está disponível</p>
                     <form>
                         <input type="text" name="domain" placeholder="Digite seu domínio desejado">
@@ -110,11 +112,15 @@
                     </form>
                 </section>
                 <section class="contact-container">
-                    <h2>Entre em contato</h2>
+                    <header>
+                        <h2>Entre em contato</h2>
+                    </header>
                     <p>Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para o seu negócio.</p>
                     <form>
-                        <input type="text" name="name" placeholder="Your full name">
-                        <input type="email" name="email" placeholder="your-email@example.com">
+                        <div class="input-container">
+                            <input type="text" name="name" placeholder="Your full name">
+                            <input type="email" name="email" placeholder="your-email@example.com">
+                        </div>
                         <textarea name="message" placeholder="Write your message to us"></textarea>
                         <input type="submit" value="Send">
                     </form>
