@@ -94,3 +94,46 @@ header {
 .main-banner p {
     font-size: 24px;
 }
+
+.main-banner,
+main section {
+    margin-bottom: 60px;
+}
+
+/* especialidades */
+
+.specialties-container div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.specialty-item {
+    display: flex;
+    flex: 1 1 400px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.specialty-item i {
+    font-size: 80px;
+    margin: 0 auto 30px;
+}
+
+.specialty-item p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.fa-shield-alt {
+    color: #2CC76A;
+}
+
+.fa-rocket {
+    color: #EF3F29;
+}
+
+.fa-comments {
+    color: #EF8F29;
+}
